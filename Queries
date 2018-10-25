@@ -1,0 +1,1 @@
+forall((father(terach,X), father(X,Y)), writeln(y=Y)). #Answers with all of terach's grandchildren.
