@@ -1,0 +1,17 @@
+father(terach,abraham).
+father(terach,nachor).
+father(terach,haran).
+father(abraham,isaac).
+father(haran,lot).
+father(haran,milcah).
+father(haran,yiscah).
+male(haran).
+male(nachor).
+male(abraham).
+male(terach).
+male(isaac).
+male(lot).
+female(sarah).
+female(milcah).
+female(yiscah).
+mother(sarah,isaac).
