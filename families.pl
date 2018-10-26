@@ -25,6 +25,5 @@ childs(X) :- child( X),  birthday( X,  date( _,  _,  1965)).
 
 
 
-
-exists( Persons) :- husband( Persons); wife( Persons);
-                                     child( Persons).
+exists(X) :- family(X,_,_),birthday(X, date(_,_,Z)), Z < 1963;
+             family(_,X,_),birthday(X, date(_,_,Z)), Z < 1963.
